@@ -1,0 +1,196 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+h1{
+    word-spacing: 0.2rem;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    top: 0;
+    background-color:rgb(163, 177, 175);
+     z-index: 999;
+    transition: .3s linear;
+    border-style: ridge;
+    
+}
+.inner-nav{
+    margin: auto;
+    padding: 0 50px;
+    max-width: 1300px;
+
+}
+nav .inner-nav{
+    display: flex;/* to align logo and links in same line*/
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+
+}
+nav .navbar-menu{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar-menu a{
+    color: rgb(23, 23, 51);
+    font-size:17px ;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: .3s linear;
+
+}
+.navbar-menu a:hover{
+    color: #1e3fac8e !important;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    z-index: 1;
+    min-width: 160px;
+    position: absolute;
+     background-color:rgb(163, 177, 175);
+     border-style: groove;
+
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#home .inner-width{
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    border-style: groove;
+  }
+  
+  #home #places{
+      display: flex;
+      
+  }
+  #places div{
+      flex: 50%;
+  }
+  .gallery .column{
+      flex: 35%;
+      max-width: 30%;
+      padding: 0 5px;
+  }
+  .gallery .column img{
+      margin-top: 10px;
+      vertical-align: middle;
+      width: 100%;
+  }#home .inner-width{
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    border-style: groove;
+  }
+  #places{
+      border-style: groove;
+      display: flex;
+      background-color:#0e6077;
+      flex: 50%;
+    color: azure;
+  }
+  #places .side{
+      text-justify: auto;
+      text-align: center;
+      font-size: 20px;
+      font-style:normal;
+    
+  }
+  #places img
+  {
+      height: 700px;
+      width: 800px;
+      align-items: center;
+      
+  }
+  .gallery-section{
+      border-style: groove;
+  }
+   #home .gallery{
+      display: flex;
+      
+      
+  }
+  .gallery .column{
+      flex: 35%;
+      max-width: 30%;
+      padding: 0 5px;
+  }
+  .gallery .column img{
+      margin-top: 10px;
+      vertical-align: middle;
+      width: 100%;
+  }
+  footer{
+      display: flex;
+      top: 10px;
+      background-color: #0e6077;
+      margin-top: 20px;
+     }
+     footer div{
+         flex: 50%;
+         max-width: 50%;
+     }
+  .social i{
+      background-color:#0e6077;
+      font-size: 30px;
+      margin-right: 10px;
+      color: black;
+      
+  }
+
+  @media screen and (max-width:980px){
+    .navbar-menu{
+        position: absolute;
+        width: 100%;
+        transition: .3s linear; }
+        #home{
+            width: 100%;
+        }
+       #places{
+           width: 100%;
+           display:flex;
+           background: #0e6077;
+       }
+
+    }
+ /* --------------------------------CSS for About ---------------------------------------------*/
+ .doc{
+    color: cornsilk;
+    background-color: #0e6077;
+}
+/*--------------------------------------CSS for Team ------------------------------------------*/
+
+ .team{
+     text-align: center;
+ }
+ /*--------------------------------CSS for Login Page--------------------*/
+ form{
+     text-align: center;
+     border-style: groove;
+     box-sizing: content-box;
+     background: darkcyan;
+     margin-top: 8%;
+     margin-left: 10%;
+     margin-right: 10%;
+    text-overflow: inherit;
+     
+ }
+ form button{
+     background-color:rgb(8, 29, 153) ;
+ }
+ 
